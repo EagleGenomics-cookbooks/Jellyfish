@@ -9,5 +9,5 @@ end
 
 describe command('jellyfish --version') do
   its(:exit_status) { should eq 0 }
-  its(:stdout) { should_match(/jellyfish 1.1.11/) }
+  its(:stdout) { should match('jellyfish 1') }
 end
