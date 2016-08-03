@@ -1,5 +1,5 @@
 
-describe file('/usr/local/jellyfish-1.1.11') do
+describe file('/usr/local/jellyfish-1.1.11 ') do
   it { should be_directory }
 end
 
